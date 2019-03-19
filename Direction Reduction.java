@@ -43,7 +43,7 @@ See more examples in "Example Tests"
 Note
 Not all paths can be made simpler. The path ["NORTH", "WEST", "SOUTH", "EAST"] is not reducible. "NORTH" and "WEST", "WEST" and "SOUTH", "SOUTH" and "EAST" are not directly opposite of each other and can't become such. Hence the result path is itself : ["NORTH", "WEST", "SOUTH", "EAST”].
 https://www.codewars.com/kata/directions-reduction/train/java
-/*
+*/
 import java.util.ArrayList;
 import java.util.List;
 
