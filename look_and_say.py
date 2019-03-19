@@ -1,4 +1,4 @@
-“””
+"""
 There exists a sequence of numbers that follows the pattern
 
           1
@@ -16,8 +16,7 @@ Starting with "1" the following lines are produced by "saying what you see", so 
 
 Write a function that given a starting value as a string, returns the appropriate sequence as a list. The starting value can have any number of digits. The termination condition is a defined by the maximum number of iterations, also supplied as an argument.
 https://www.codewars.com/kata/look-and-say-numbers/train/python/5c9023822453954583f028b1
-“””
-
+"""
 def look_and_say(data='1', maxlen=10):
   #TODO populate result list with the look and say numbers
   ''' data:   starting number set
